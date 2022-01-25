@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>andreu</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Xanh+Mono&display=swap" rel="stylesheet">
+        <style>
+            a:link {
+                text-decoration: none;
+                color: black;
+            }
+            a:visited{
+                color: #C4C4C4;
+            }
+            *{
+                margin: 0%;
+                padding: 0%;
+                box-sizing: border-box;
+            }
+            html{
+                font-size: 32px;
+            }
+            img{
+                width: 100%;
+                height: auto;
+            }
+            body>header{
+                padding-top: 40px;
+                box-sizing: border-box;
+                width: 100%;
+                height: 30vh;
+                background-color: white;
+            }
+            h1{
+                font-family: 'Archivo', sans-serif;
+                font-weight: 600;
+                font-size: 21px;
+                line-height: 23px;
+                padding-left: 120px;
+            }
+            h2{
+                display: flex;
+                justify-content: flex-end;
+                font-family: 'Archivo', sans-serif;
+                font-weight: 600;
+                font-size: 21px;
+                padding-right: 123px;
+            }
+            h3{
+                font-family: 'Archivo', sans-serif;
+                font-weight: 600;
+                font-size: 58px;
+                line-height: 78px;
+                text-align: right;
+            }
+            h4{
+                font-family: 'Archivo', sans-serif;
+                font-weight: 400;
+                font-size: 19px;
+                text-align: left;
+                padding-right: 300px;
+            }
+            h5{
+                font-family: 'Archivo', sans-serif;
+                color: black;
+                font-weight: 200;
+                font-size: 15px;
+                line-height: 23px;
+                background-color: ;
+                padding-bottom: 170px;
+            }
+            h6{
+                display: flex;
+                align-items: baseline;
+                font-family: 'Archivo', sans-serif;
+                color: black;
+                font-weight: 200;
+                font-size: 15px;
+                line-height: 23px;
+            }
+            .container{
+                column-count: 2;
+            }
+            section:first-child{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+            .container_head{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            /*card portades*/
+            .ejercicio{
+                display: flex;
+                flex-direction: column;
+                max-width:700px;
+                min-width: 700px;
+                min-height: 915px;
+                max-height: 915px;
+                padding: 30px;
+                margin-bottom: 60px;
+                border: 2px solid #C4C4C4;
+            }
+            .ejercicio header{
+                order: 1;
+                display:flex;
+                margin-bottom: 6px;
+                max-height: 80px;
+                min-width: 400px;
+                max-width: 600px;
+                align-items: flex-start;
+                font-family: 'Archive', sans-serif;
+                font-weight: 600;
+                background-color: ;
+            }
+            .ejercicio hgroup{
+                order: 2;
+            }
+            .hoja_ejemplo{
+                order: 3;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                max-height: 300px;
+                min-width: 300px;
+                flex-grow: 1;
+                background-color: ;
+            }
+            .hoja_ejemplo img{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-grow: 1;
+                max-width: 250px;
+                min-width: 250px;
+                object-fit: cover;
+                object-position: center;
+            }
+            .fecha{
+                order: 5;
+                display: flex;
+                align-items: baseline;
+                background-color: ;
+                padding-top: 251px;
+            }
+            /*footer*/
+            footer{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 80vh;
+                background-color: ;
+            }
+            footer .container{
+                display: flex;
+                background-color: ;
+            }
+            footer p a{
+                font-size: 30px;
+                font-family: 'Archivo', sans-serif;
+                color: #c4c4c4;
+                line-height: 50px;
+            }
+            footer p{
+                font-size: 30px;
+                font-family: 'Archivo', sans-serif;
+                color: #C4C4C4;
+                line-height: 50px;
+                text-align: center;
+            }
+    @media (max-width: 900px){
+        .container{
+            display: flex;
+            flex-direction: column;
+            column-count: 1;
+        }
+        h1{
+            font-size: 21px;
+            padding-left: 30px;
+        }
+        h2{
+            font-size: 21px;
+            padding-right: 30px;
+        }
+        h4{
+            padding-right: 30px;
+            font-size: 21px;
+        }
+    }
+    @media (max-width: 600px){
+        .ejercicio{
+                max-width: 500px;
+                min-width: 500px;
+                min-height: 915px;
+                max-height: 915px;
+        } 
+        .container{
+            column-count: 1;
+        }
+        h1{
+            font-size: 17px;
+        }
+        h2{
+            font-size: 17px;
+        }
+        h4{
+            padding-right: 40px;
+            font-size: 17px;
+        }
+    }
+        </style>
+</head>
+<body>
+    <header>
+        <div class="container_head">
+            <h1>Andreu M. Alborch</h1>
+            <h4>based in the internet.</h4>
+            <h2>contact</h2>
+        </div>
+    </header>
+    <main>
+        <section id="#">
+            <div class="container">
+                <a href="https://andreueasd.github.io/1_llocweb_2dg/">
+                <div class="ejercicio">
+                    <div class="hoja_ejemplo">
+                        <img src="/imgs/1.png" alt="">
+                    </div>
+                    <header>
+                        <h3>1_llocweb</h3>
+                    </header>
+                    <hgroup>
+                        <h5>project about the basic use of Visual Studio Code.</h5>
+                    </hgroup>
+                    <div class="fecha">
+                        <hgroup>
+                            <h6>21-10-2021</h6>
+                        </hgroup>
+                    </div>
+                </div>
+                <a href="https://andreueasd.github.io/3_img_video_audio-css/"></a>
+                <div class="ejercicio">
+                    <div class="hoja_ejemplo">
+                        <img src="/imgs/3.png" alt="">
+                    </div>
+                    <header>
+                        <h3>3_img_audio</h3>
+                    </header>
+                    <hgroup>
+                        <h5>experiment with multimedia player in html.</h5>
+                    </hgroup>
+                    <div class="fecha">
+                        <hgroup>
+                            <h6>21-10-2021</h6>
+                        </hgroup>
+                    </div>
+                </div>
+                <a href=" https://andreueasd.github.io/5_grid/"></a>
+                <div class="ejercicio">
+                    <div class="hoja_ejemplo">
+                        <img src="/imgs/5.png" alt="">
+                    </div>
+                    <header>
+                        <h3>5_grid</h3>
+                    </header>
+                    <hgroup>
+                        <h5>funny exercise with the grid tool.</h5>
+                    </hgroup>
+                    <div class="fecha">
+                        <hgroup>
+                            <h6>21-10-2021</h6>
+                        </hgroup>
+                    </div>
+                </div>
+                </a>
+                <a href=" https://andreueasd.github.io/2_llocweb_img/"></a>
+                <div class="ejercicio">
+                    <div class="hoja_ejemplo">
+                        <img src="/imgs/2.png" alt="">
+                    </div>
+                    <header>
+                        <h3>2_llocweb_img</h3>
+                    </header>
+                    <hgroup>
+                        <h5>project about the basic use of different pages with images Visual Studio Code.</h5>
+                    </hgroup>
+                    <div class="fecha">
+                        <hgroup>
+                            <h6>28-10-2021</h6>
+                        </hgroup>
+                    </div>
+                </div>
+                <a href="https://andreueasd.github.io/4_gallery/"></a>
+                <div class="ejercicio">
+                    <div class="hoja_ejemplo">
+                        <img src="/imgs/4.png" alt="">
+                    </div>
+                    <header>
+                        <h3>4_gallery</h3>
+                    </header>
+                    <hgroup>
+                        <h5>first step on real layouts related to music.</h5>
+                    </hgroup>
+                    <div class="fecha">
+                        <hgroup>
+                            <h6>21-10-2021</h6>
+                        </hgroup>
+                    </div>
+                </div>
+                <a href="https://andreueasd.github.io/6_neoplasticismo/"></a>
+                <div class="ejercicio">
+                    <div class="hoja_ejemplo">
+                        <img src="/imgs/6.png" alt="">
+                    </div>
+                    <header>
+                        <h3>6_neoplasticisme</h3>
+                    </header>
+                    <hgroup>
+                        <h5>a little exercise to practise display: flex.</h5>
+                    </hgroup>
+                    <div class="fecha">
+                        <hgroup>
+                            <h6>21-10-2021</h6>
+                        </hgroup>
+                    </div>
+                </div>
+        </section>
+</main>
+    <footer id="#">
+            <div class="container">
+                <h7>
+                    <p><a href="https://www.instagram.com/a.alborxx/">instagram</a></p>
+                    <p><a href="https://twitter.com/alborch_andreu">twitter</a></p>
+                    <p><a href="https://open.spotify.com/user/4fiq9l9on8xo12157isya6brn?si=a6adf140a7bd45cd">spotify</a></p>
+                    <p>+34 691282698</p>
+                </h7>
+            </div>
+    </footer>
+</body>
+</html>
